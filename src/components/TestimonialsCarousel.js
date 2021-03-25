@@ -7,7 +7,6 @@ import avatar2 from "../images/avatars/avatar-2.png";
 import avatar3 from "../images/avatars/avatar-3.png";
 import avatar4 from "../images/avatars/avatar-4.png";
 
-
 const TestimonialsCarousel = () => {
   return (
     <Carousel
@@ -36,7 +35,10 @@ const TestimonialsCarousel = () => {
         <img src={avatar3} alt="John Doe 3" />
         <div className="myCarousel">
           <h3>John Doe 3</h3>
-          <p>This feed can be manually updated or connected to a database and populate with the most recent reviews.</p>
+          <p>
+            This feed can be manually updated or connected to a database and
+            populate with the most recent reviews.
+          </p>
         </div>
       </>
       <>
@@ -47,7 +49,7 @@ const TestimonialsCarousel = () => {
         </div>
       </>
     </Carousel>
-  )
-}
+  );
+};
 
 export default TestimonialsCarousel;

@@ -54,7 +54,7 @@ const Services = () => {
               <p>
                 Lets face it we love social media and we all see the ads as we
                 are scrolling through our feeds. Make your business stand out
-                with your own custom ad.
+                with your own custom ad...
               </p>
             </div>
           </div>
@@ -70,7 +70,6 @@ const Services = () => {
                 business or brand. Make the most of it by having a custom ad
                 attached to your Google search results.
               </p>
-              .
             </div>
           </div>
         </div>

@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={""}
+                url={"roberthavelaar.com"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
                 hashtag="#reactjs"
@@ -66,7 +66,7 @@ const Footer = () => {
                 <FacebookIcon className="mx-3" size={36} />
               </FacebookShareButton>
               <TwitterShareButton
-                url={""}
+                url={"roberthavelaar.com"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
                 hashtag="#reactjs"
@@ -76,7 +76,7 @@ const Footer = () => {
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
               <RedditShareButton
-                url={""}
+                url={"roberthavelaar.com"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
                 hashtag="#reactjs"
@@ -86,7 +86,7 @@ const Footer = () => {
                 <RedditIcon className="mx-3" size={36} />
               </RedditShareButton>
               <LinkedinShareButton
-                url={""}
+                url={"roberthavelaar.com"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
                 hashtag="#reactjs"
