@@ -16,7 +16,9 @@ const Services = () => {
               </div>
               <h3>Web Development</h3>
               <p>
-If you have a brand, business, or just want the world to know about your cats.  I will help you create a web presence for the potentially millions of consumers on the internet.
+                If you have a brand, business, or just want the world to know
+                about your cats. I will help you create a web presence for the
+                potentially millions of consumers on the internet.
               </p>
             </div>
           </div>
@@ -29,7 +31,7 @@ If you have a brand, business, or just want the world to know about your cats.  
 
               <h3>IOT Development</h3>
               <p>
-                <li>Firebase</li>
+                <li>Wiki Pages</li>
                 <li>Ecommerce</li>
                 <li>SQL Database's</li>
                 <li>Social Media Bots</li>
