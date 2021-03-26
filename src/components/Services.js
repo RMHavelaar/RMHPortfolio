@@ -1,7 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDesktop,
+  faFileCode,
+  faTerminal,
+  faUserFriends,
+  faLaptopCode,
+  faLanguage,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
@@ -70,6 +77,101 @@ const Services = () => {
                 business or brand. Make the most of it by having a custom ad
                 attached to your Google search results.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="services">
+        <h1 className="py-5">my skills</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3 col-sm-6">
+              <div className="box">
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faUserFriends}
+                    size="2x"
+                  />
+                </div>
+                <h3>Versatile</h3>
+                <p>
+                  Communication
+                  <br />
+                  Project management
+                  <br />
+                  Research, Planning, and organizing
+                  <br />
+                  Proficient in keeping up to date and learning of new
+                  technologies
+                </p>
+              </div>
+            </div>
+            {/* - */}
+            <div className="col-md-3 col-sm-6">
+              <div className="box">
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faLanguage}
+                    size="2x"
+                  />
+                </div>
+                <h3>Languages</h3>
+                <p>
+                  HTML, CSS
+                  <br />
+                  Postgrese, SQL..
+                  <br />
+                  JS, ReactJS, BootstrapJS
+                  <br />
+                  Python, Django C#, Unity Engine
+                  <br />
+                  My library is always expanding...
+                </p>
+              </div>
+            </div>
+            {/* - */}
+            <div className="col-md-3 col-sm-6">
+              <div className="box">
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faTerminal}
+                    size="2x"
+                  />
+                </div>
+                <h3>Tools</h3>
+                <p>
+                  Git, Firebase, AWS
+                  <br />
+                  Mac, iOS, Windows, Linux
+                  <br />
+                  Visual Studio, VS Code, Xcode
+                  <br />
+                  Unity, Photoshop Blender, Gimp
+                  <br />
+                  Shopify, WordPress, and other CMS
+                </p>
+              </div>
+            </div>
+            {/* - */}
+            <div className="col-md-3 col-sm-6">
+              <div className="box">
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faLaptopCode}
+                    size="2x"
+                  />
+                </div>
+                <h3>Flexible</h3>
+                <p>
+                  I am a passionate programmer that likes to keep up with the
+                  time. I am always open and excited to learn new programming
+                  languages and tools.
+                </p>
+              </div>
             </div>
           </div>
         </div>

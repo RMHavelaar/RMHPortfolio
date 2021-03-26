@@ -1,6 +1,6 @@
 import React from "react";
-import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
+import twitterclone from "../images/netflix.png";
+import todoApp from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS
@@ -11,50 +11,49 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
-  // Netflix
-  const openPopupboxNetflix = () => {
+  // TwitterClone
+  const openPopupboxTwitterClone = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popupbox"
-          src={netflix}
-          alt="Netflix Clone Project..."
+          src={twitterclone}
+          alt="Twitter Clone Project..."
         />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+          This is a simple clone of the Twitter platform with my own take on the styling.
         </p>
         <b>GitHub:</b>{" "}
         <a
           className="hyper-link"
           onClick={() =>
-            window.open("https://github.com/8020Coding/netflix-project")
+            window.open("https://github.com/")
           }
         >
-          https://github.com/8020Coding/netflix-project
+          https://github.com/
         </a>
       </>
     );
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigNetflix = {
+  const popupboxConfigTwitterClone = {
     titleBar: {
       enable: true,
-      text: "Netflix clone project.",
+      text: "Twitter Clone Project.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
   };
 
-  // City Guide App
-  const openPopupboxCityGuide = () => {
+  // Django Todo App
+  const openPopupboxTodoApp = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popupbox"
-          src={cityGuide}
-          alt="City Guide App Project..."
+          src={todoApp}
+          alt="Python Todo App Project..."
         />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
@@ -65,12 +64,12 @@ const Portfolio = () => {
           className="hyper-link"
           onClick={() =>
             window.open(
-              "https://city-guide-app-project.herokuapp.com/",
+              "https://demo.com",
               "_blank"
             )
           }
         >
-          https://city-guide-app-project.herokuapp.com/
+          DEMO.com
         </a>
         <br />
         <b>GitHub:</b>{" "}
@@ -78,22 +77,22 @@ const Portfolio = () => {
           className="hyper-link"
           onClick={() =>
             window.open(
-              "https://github.com/8020Coding/city-guide-app",
+              "https://github.com",
               "_blank"
             )
           }
         >
-          https://github.com/8020Coding/city-guide-app
+          https://github.com
         </a>
       </>
     );
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigCityGuide = {
+  const popupboxConfigTodoApp = {
     titleBar: {
       enable: true,
-      text: "City Guide App project.",
+      text: "Todo App project.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -155,7 +154,7 @@ const Portfolio = () => {
         <img
           className="portfolio-image-popupbox"
           src={taskManager}
-          alt="Task Manager React and Redux Project..."
+          alt="spasmafasf..."
         />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
@@ -191,7 +190,7 @@ const Portfolio = () => {
   const popupboxConfigTaskManager = {
     titleBar: {
       enable: true,
-      text: "Task Manager React and Redux project.",
+      text: "Sample Project",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -202,21 +201,21 @@ const Portfolio = () => {
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
-          <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
+          <div className="portfolio-image-box" onClick={openPopupboxTwitterClone}>
             <img
               className="portfolio-image"
-              src={netflix}
-              alt="Netflix Clone Project..."
+              src={twitterclone}
+              alt="Twitter Clone Project..."
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
+          <div className="portfolio-image-box" onClick={openPopupboxTodoApp}>
             <img
               className="portfolio-image"
-              src={cityGuide}
-              alt="City Guide Project..."
+              src={todoApp}
+              alt="Todo App Project..."
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -239,7 +238,7 @@ const Portfolio = () => {
             <img
               className="portfolio-image"
               src={taskManager}
-              alt="Task Manager React and Redux Project..."
+              alt="dsfsdfsdfsfs"
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -247,8 +246,8 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <PopupboxContainer {...popupboxConfigNetflix} />
-      <PopupboxContainer {...popupboxConfigCityGuide} />
+      <PopupboxContainer {...popupboxConfigTwitterClone} />
+      <PopupboxContainer {...popupboxConfigTodoApp} />
       <PopupboxContainer {...popupboxConfigPortfolio} />
       <PopupboxContainer {...popupboxConfigTaskManager} />
     </div>

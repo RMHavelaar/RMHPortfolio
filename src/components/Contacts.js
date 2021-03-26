@@ -45,6 +45,7 @@ const Contacts = () => {
           Please fill out the form and describe you project needs and I'll
           contact you as soon as possible.
         </p>
+        <p>I do not send SMS spam, or sell any information.</p>
         <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">
@@ -81,7 +82,7 @@ const Contacts = () => {
                   name="phone"
                   ref={register({
                     required:
-                      "Please add your phone number or use 555-555-5555 if you wish to keep your number private.",
+                      "Please add your phone number or use 555-555-5555.",
                   })}
                 />
                 <div className="line"></div>
@@ -97,7 +98,7 @@ const Contacts = () => {
                   placeholder="Email"
                   name="email"
                   ref={register({
-                    required: "Please provide you Email",
+                    required: "Please provide your Email",
                     pattern: {
                       value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                       message: "invalid Email",
@@ -117,7 +118,7 @@ const Contacts = () => {
                   placeholder="Subject"
                   name="subject"
                   ref={register({
-                    required: "OOPS, you forget to add the subject.",
+                    required: "Please add a brief subject.",
                   })}
                 />
                 <div className="line"></div>
@@ -132,11 +133,11 @@ const Contacts = () => {
                 <textarea
                   type="text"
                   className="form-control"
-                  placeholder="Please describe shortly you project and how you would like to be contacted."
+                  placeholder="Hello! Thank you for reaching out to me. Please leave as much information as you would like and I be sure to reach back out to you within 24 hours."
                   name="description"
                   ref={register({
                     required:
-                      "Please describe shortly you project and how you would like to be contacted.",
+                      "Hello! Thank you for reaching out to me. Please leave as much information as you would like and I be sure to reach back out to you within 24 hours.",
                   })}
                 ></textarea>
                 <div className="line"></div>
