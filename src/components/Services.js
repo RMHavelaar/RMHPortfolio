@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import {
   faDesktop,
   faFileCode,
@@ -8,6 +7,8 @@ import {
   faUserFriends,
   faLaptopCode,
   faLanguage,
+  faRobot,
+  faGamepad,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
@@ -38,11 +39,15 @@ const Services = () => {
 
               <h3>IOT Development</h3>
               <p>
-                <li>Wiki Pages</li>
-                <li>Ecommerce</li>
-                <li>SQL Database's</li>
-                <li>Social Media Bots</li>
-                <li>Raspberry Pi Applications</li>
+                Wiki Pages
+                <br />
+                Database's
+                <br />
+                Ecommerce
+                <br />
+                Raspberry Pi Applications
+                <br />
+                Custom Scripts and software
               </p>
             </div>
           </div>
@@ -50,18 +55,19 @@ const Services = () => {
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon
-                  className="icon"
-                  icon={faFacebookF}
-                  size="2x"
-                />
+                <FontAwesomeIcon className="icon" icon={faRobot} size="2x" />
               </div>
-
-              <h3>Social Media Ads</h3>
+              <h3>Bots</h3>
               <p>
-                Lets face it we love social media and we all see the ads as we
-                are scrolling through our feeds. Make your business stand out
-                with your own custom ad...
+                SMM
+                <br />
+                Discord
+                <br />
+                Web Scrapers
+                <br />
+                Data Collection
+                <br />
+                Twitter, Instagram, and Linkedin
               </p>
             </div>
           </div>
@@ -69,13 +75,13 @@ const Services = () => {
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+                <FontAwesomeIcon className="icon" icon={faGamepad} size="2x" />
               </div>
-              <h3>Google Ads</h3>
+              <h3>Custom Game Servers</h3>
               <p>
-                A Google search is where most people start their hunt for a new
-                business or brand. Make the most of it by having a custom ad
-                attached to your Google search results.
+                I will develop your game server and get it hosted on the
+                platform of your choice. (Ark, Conan Exiles, 7 Days to die,
+                Minecraft ect...)
               </p>
             </div>
           </div>
