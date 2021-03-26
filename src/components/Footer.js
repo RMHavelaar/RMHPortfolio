@@ -31,6 +31,15 @@ const Footer = () => {
                 RMHavelaar@gmail.com
               </a>
             </div>
+            <div className="d-flex">
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                RMHavelaar@gmail.com
+              </a>
+            </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">

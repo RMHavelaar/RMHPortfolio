@@ -127,13 +127,13 @@ const Services = () => {
                 <p>
                   HTML, CSS
                   <br />
-                  Postgrese, SQL..
-                  <br />
-                  JS, ReactJS, BootstrapJS
+                  Postgres, SQL...
                   <br />
                   Python, Django C#, Unity Engine
                   <br />
-                  My library is always expanding...
+                  JS, ReactJS, BootstrapJS
+                  <br />
+                  My library is always expanding.
                 </p>
               </div>
             </div>
