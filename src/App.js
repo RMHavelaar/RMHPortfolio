@@ -40,7 +40,7 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Testimonials />
       <Contacts />
       <Footer />

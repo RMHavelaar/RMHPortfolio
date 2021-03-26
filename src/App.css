@@ -427,6 +427,12 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.testimonials h6 {
+  color: var(--primary-orange);
+  padding: 0rem 0;
+  text-transform: uppercase;
+}
+
 .testimonials-content {
   text-align: center;
   max-width: 53.125rem;
@@ -560,7 +566,8 @@ textarea.form-control {
 
 .success-message {
   font-weight: 900;
-  color: var(--primary-green);
+  color: var(--primary-orange);
+  transition: width .5s ease-in-out;
 }
 
 /*---------------- MEDIA -----------------------*/
